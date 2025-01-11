@@ -1,0 +1,198 @@
+  
+
+body {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 32px auto 32px auto;
+}
+
+header > a {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  margin: 30px;
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+}
+
+#nav-pc ul {
+  display: flex;
+  margin-right: 80px;
+  list-style: none;
+}
+
+#nav-pc a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+#main-visual {
+  margin: 80px 0 0 0;
+}
+
+#mainphoto {
+  width: 100%;
+}
+
+#about-section {
+  margin: 80px 0 80px 0;
+}
+
+.section-h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+#profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+#about-photo {
+  border-radius: 160px;
+}
+
+#works-section {
+  margin: 0 0 0 80px;
+}
+
+
+#works {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#left img {
+  width: 90%;
+}
+
+
+#left p {
+  width: 275px;
+  word-wrap: break-word;
+}
+
+#center img {
+  width: 90%;
+}
+
+#center p {
+  width: 275px;
+  word-wrap: break-word;
+}
+
+
+#right img {
+  width: 90%;
+}
+
+#right p {
+  width: 275px;
+  word-wrap: break-word;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+footer {
+  margin: 80px 0 80px 0;
+}
+
+#copyright{
+ text-align: center; 
+}
+
+@media screen and (max-width: 767px) {
+
+  #profile {
+    display: block;
+  }
+
+  #works {
+    display: block;
+  }
+
+  header {
+    font-size: 23px;
+  }
+  
+  header > a {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #nav-pc ul {
+    margin: 22px 0px 0px 0;
+  }
+  
+  #nav-pc a {
+    padding-right: 15px;
+   }
+  
+  #main-visual {
+    margin: 30 0 0 0;
+  }
+  
+  #mainphoto {
+    width: 100%;
+  }
+  
+  
+  .section-h2 {
+    font-size: 28px;
+  }
+  
+  #profile {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+
+  #detail {
+    padding-left: 25px;
+    text-align: left;
+  }
+  
+  #works-section {
+    margin: 0 0 0 0;
+  }
+
+  #works {
+    display: block;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
+  }
+  
+  #left img {
+    width: 100%;
+  }
+
+  #center img {
+    width: 100%;
+  }
+  
+  #right img {
+    width: 100%;
+  }
+}
