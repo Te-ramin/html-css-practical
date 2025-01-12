@@ -71,7 +71,7 @@ header > a {
 }
 
 #works-section {
-  margin: 0 0 0 80px;
+  margin: 0 0 80px 0;
 }
 
 
@@ -81,34 +81,32 @@ header > a {
 }
 
 
-#left img {
-  width: 90%;
+#left {
+  width: 30%;
 }
 
+#left img {
+  width: 100%;
+  margin: 0 auto;
+}
 
-#left p {
-  width: 275px;
-  word-wrap: break-word;
+#center {
+  width: 30%;
+  margin-right: 10px;
 }
 
 #center img {
-  width: 90%;
+  width: 100%;
 }
 
-#center p {
-  width: 275px;
-  word-wrap: break-word;
+#right {
+  width: 30%;
 }
-
 
 #right img {
-  width: 90%;
+  width: 100%;
 }
 
-#right p {
-  width: 275px;
-  word-wrap: break-word;
-}
 
 h3 {
   font-size: 24px;
@@ -164,15 +162,9 @@ footer {
   
   #profile {
     display: block;
-    margin-top: 50px;
-    text-align: center;
+    margin: 50px auto;
   }
   
-
-  #detail {
-    padding-left: 25px;
-    text-align: left;
-  }
   
   #works-section {
     margin: 0 0 0 0;
@@ -184,15 +176,15 @@ footer {
     margin: 20px 10px 20px 10px;
   }
   
-  #left img {
+  #left {
     width: 100%;
   }
 
-  #center img {
+  #center {
     width: 100%;
   }
   
-  #right img {
+  #right  {
     width: 100%;
   }
 }
