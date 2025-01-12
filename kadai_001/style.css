@@ -62,13 +62,18 @@ header > a {
 }
 
 #profile {
+  padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin: 20px auto;
 }
+
 
 #about-photo {
   border-radius: 160px;
 }
+
 
 #works-section {
   margin: 0 0 80px 0;
@@ -83,6 +88,7 @@ header > a {
 
 #left {
   width: 30%;
+  
 }
 
 #left img {
@@ -92,7 +98,6 @@ header > a {
 
 #center {
   width: 30%;
-  margin-right: 10px;
 }
 
 #center img {
@@ -121,14 +126,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-
-  #profile {
-    display: block;
-  }
-
-  #works {
-    display: block;
-  }
 
   header {
     font-size: 23px;
@@ -159,12 +156,10 @@ footer {
   .section-h2 {
     font-size: 28px;
   }
-  
-  #profile {
-    display: block;
-    margin: 50px auto;
+
+  #about-photo {
+    margin: 0 auto;
   }
-  
   
   #works-section {
     margin: 0 0 0 0;
@@ -187,4 +182,17 @@ footer {
   #right  {
     width: 100%;
   }
+
+  #left p {
+    text-align: center;
+  }
+
+  #center p {
+    text-align: center;
+  }
+
+  #right p {
+    text-align: center;
+  }
+
 }
